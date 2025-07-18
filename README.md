@@ -1,5 +1,7 @@
 # Oled_ssd1306_rust
 
+![Oled SSD1306](https://cdn-shop.adafruit.com/970x728/931-10.jpg)
+
 Rust implementation of the Adafruit OLED SSD1306 driver for the STM32F7XX Nucleo Board. The original driver was created for Mbed, as per the link below:  
 [Adafruit GFX on Mbed](https://os.mbed.com/users/nkhorman/code/Adafruit_GFX/)
 
