@@ -1,0 +1,11 @@
+arm-none-eabi-objcopy -O ihex target/thumbv7em-none-eabihf/release/testcase testcase.hex
+arm-none-eabi-objcopy -O binary --strip-all  target/thumbv7em-none-eabihf/release/testcase testcase.bin
+
+rem arm-none-eabi-readelf -S target/thumbv7em-none-eabihf/release/testcase
+
+
+arm-none-eabi-objcopy -O ihex target/thumbv7em-none-eabihf/debug/testcase testcase_d.hex
+arm-none-eabi-objcopy -O binary --strip-all  target/thumbv7em-none-eabihf/debug/testcase testcase_d.bin
+
+
+
